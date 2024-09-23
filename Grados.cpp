@@ -11,7 +11,7 @@ int main()
 
        f = ((c *9/5)+32);
 
-       cout << c << "°C son igual a" << f << "°F" << endl;
+       cout << c << "Â°C son igual a" << f << "Â°F" << endl;
 
        return 0;
 }
