@@ -9,7 +9,7 @@ int main()
 
   printf("introduce tu nombre");
   scanf("%s", nombre);
-  printf("introduce tu año de nacimiento");
+  printf("introduce tu aÃ±o de nacimiento");
   scanf("%d", &Anac);
 
   int edad= (Aact - Anac);
