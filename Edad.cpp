@@ -1,20 +1,15 @@
-#include <conio.h>
-#include <cstdio>
+#include <iostream>
 
-int main()
-{
-  char nombre [20];
-  int Anac;
-  int Aact=2024;
+using namespace std;
 
-  printf("introduce tu nombre");
-  scanf("%s", nombre);
-  printf("introduce tu año de nacimiento");
-  scanf("%d", &Anac);
+int main (){
+    int ano, edad;
 
-  int edad= (Aact - Anac);
+    cout << "Cual es tu año de nacimiento: " << endl;
+    cin >> ano;
 
-  printf("Hola %s, tu edad es %d", nombre, edad);
+    edad = 2024 - ano;
 
-  return 0;
+    cout << "Tu edad es: " << edad << endl;
+    return 0;
 }
